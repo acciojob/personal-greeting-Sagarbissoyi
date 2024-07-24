@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest --no-color 2>output.txt",
     "start": "webpack-dev-server --mode development --watch --open --hot",
-    "build": "webpack --mode production",
-    "cypress:open": "cypress open"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -52,7 +51,4 @@
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
   }
-
-
-  
 }
